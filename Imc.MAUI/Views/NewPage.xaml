@@ -11,15 +11,19 @@
                 Padding="18" 
                 Spacing="10">
                 <Label 
-                    Text = "Proporcione el peso en kilogramos"/>
+                    Text = "Proporcione el peso en kilogramos"
+                    TextColor="White"/>
                 <Entry 
                     Text="{Binding Path= Peso}" 
-                       BackgroundColor="WhiteSmoke" TextColor="Black"/>
+                       BackgroundColor="WhiteSmoke" 
+                    TextColor="Black"/>
                 <Label 
-                    Text="Proporcione la altura en metros"/>
+                    Text="Proporcione la altura en metros"
+                    TextColor="White"/>
                 <Entry 
                     Text="{Binding Path=Estatura}" 
-                       BackgroundColor="WhiteSmoke" TextColor="Black"/>
+                       BackgroundColor="WhiteSmoke" 
+                    TextColor="Black"/>
             </VerticalStackLayout>
         </Border>
         <HorizontalStackLayout 

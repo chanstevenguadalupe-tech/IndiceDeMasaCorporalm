@@ -1,3 +1,7 @@
 <Solution>
-  <Project Path="Imc.MAUI/Imc.MAUI.csproj" />
+  <Project Path="Imc.Console/Imc.Console.csproj" Id="0d11e6aa-21fe-42f4-a4bb-6a6491fbda1f" />
+  <Project Path="Imc.MAUI/Imc.MAUI.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="Imc.Models/Imc.Models.csproj" Id="f7456c19-d95e-4616-9f81-072306d4482b" />
 </Solution>
